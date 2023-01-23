@@ -1,0 +1,24 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.selection{
+    background-color: lightgreen;
+}
+.tableAtAll{
+    background-color: #aaf0d1;
+    border: 1px white solid;
+    margin-top: 20px;
+}
+.tableHead{
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px white solid;
+}
+.tableData{
+    background-color: white;
+    width: 100px;
+    font-size: 14px;
+}

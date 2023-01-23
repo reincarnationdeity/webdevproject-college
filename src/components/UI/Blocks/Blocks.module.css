@@ -1,0 +1,29 @@
+.blocks__container{
+    width: 500px;
+    margin: 0 auto;
+}
+.shape{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+.round{
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius:50px;
+    background: linear-gradient(to top right, blue, lightblue);
+}
+.shadow__shape{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    box-shadow: 5px 5px 5px green;
+}

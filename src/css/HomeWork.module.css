@@ -1,0 +1,76 @@
+body{
+    background-color: #121212;
+}
+.container{
+    background-color: white;
+    margin: 0 auto;
+    height: 650px;
+    width: 320px;
+    margin-top: 120px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 3px 1px gray;
+}
+.image_flowers{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -35px;
+    width: 100px;
+    object-fit: contain;
+}
+.are_invite{
+    padding-top: 18px;
+    text-align: center;
+    font-size: 18px;
+}
+.shape{
+    height: 0.3px;
+    background-color: gray;
+    margin-top: 2px;
+    opacity: 0.7;
+}
+.text_about{
+    font-family: Caveat;
+    font-size: 24px;
+    color: gray;
+    text-align: center;
+}
+.text_input{
+    border-width: 1px;
+    border-color: gray;
+    margin-left: 35px;
+    height: 40px;
+    width: 250px;
+}
+.text_input:focus{
+    outline: none;
+    border-color: #ff6b6b;
+}
+.options{
+    margin-left: 135px;
+    color: gray;
+    width: 50px;
+    height: 40px;
+    font-family: "Times New Roman";
+}
+.options:focus{
+    border-color: #ff6b6b;
+}
+.options:hover{
+    border-color: #ff6b6b;
+}
+.second_part{
+    margin-top: 15px;
+    width: 150px;
+    margin-left: 85px;
+}
+.i_apply{
+    background-color: #ff6b6b;
+    border-width: 0px;
+    border-radius: 25px;
+    height: 35px;
+    width: 250px;
+    margin-left: 35px;
+    font-family: "Times New Roman";
+    color: white;
+    margin-top: 25px;
+}

@@ -1,0 +1,69 @@
+.page__header{
+    background-color: transparent;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+.nav__link__first{
+    font-family: "Poppins";
+    padding-top: 38px;
+    font-size: 23px;
+    text-decoration: none;
+    background: linear-gradient(to right, #aaf0d1 , #aaf0d1 50%, white 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 375ms ease;
+}
+.nav__link__first:after{
+    margin: 0 auto;
+    display: block;
+    width: 98%;
+    height: 3px;
+    background: linear-gradient(to right, #aaf0d1 , #aaf0d1 50%, transparent 50%);
+    background-size: 201% 50%;
+    background-position: 100%;
+    transition: background-position 375ms ease;
+    content: '';
+}
+.nav__link__first:hover{
+    background-position: 0 100%;
+}
+.nav__link__first:hover::after{
+    background-position: 0 100%;
+}
+.nav__link__second{
+    font-family: "TT Norms ExtraBold";
+    padding-top: 38px;
+    font-size: 23px;
+    text-decoration: none;
+    background: linear-gradient(to left, white, white 50%, #aaf0d1 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: -100%;
+    transition: background-position 375ms ease;
+}
+.nav__link__second:hover{
+    background-position: 0 100%;
+}
+.nav__link__second::after{
+    display: block;
+    width: 93.1%;
+    margin: 0 auto;
+    height: 3px;
+    background: linear-gradient(to left, transparent, transparent 50%, #aaf0d1 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    transition: background-position 375ms ease;
+    content: '';
+}
+.nav__link__second:hover::after{
+    background-position: 0 100%;
+}
+.last__link{
+    margin-right: 25px;
+}

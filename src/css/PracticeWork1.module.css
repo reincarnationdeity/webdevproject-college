@@ -1,0 +1,73 @@
+.form__container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+.form__text{
+    margin-bottom: 5px;
+    font-family: "Kanit", Arial;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+.form__input{
+    height: 20px;
+    border-radius: 5px;
+    border-width: 0;
+}
+.form__input:focus {
+    outline: none;
+}
+.button__container{
+    width: 50%;
+    margin: 0 auto;
+}
+.no{
+    background: transparent;
+    border-color: #aaf0d1;
+    color: #aaf0d1;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    font-family: "TT Norms ExtraBold", "Arial Black";
+}
+.yes{
+    background: transparent;
+    border-color: lightyellow;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    margin-right: 5px;
+    color: lightyellow;
+    font-family: "TT Norms ExtraBold";
+}
+.yes__active{
+    background-color: lightyellow;
+    color: black;
+    border-color: lightyellow;
+    font-family: "TT Norms ExtraBold";
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+.no__active{
+    background-color: #aaf0d1;
+    color: hotpink;
+    border-color: #aaf0d1;
+    font-family: "TT Norms ExtraBold";
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+.submit__button{
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: #aaf0d1;
+    border-radius: 2px;
+    height: 30px;
+    color: chocolate;
+    font-family: "TT Norms ExtraBold", "Arial Black";
+}

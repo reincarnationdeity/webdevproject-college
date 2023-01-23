@@ -1,0 +1,38 @@
+.container{
+    width: 1500px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.micro__container{
+    height: 400px;
+}
+.second__container{
+    display:flex;
+    justify-content: space-evenly;
+}
+.images{
+    width: 250px;
+    object-fit: contain;
+}
+.form__third{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.headers{
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    text-align: center;
+}
+.inputs{
+    width: 130px;
+    margin: 0 auto;
+    display: block;
+}
+.color{
+    width: 40px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
