@@ -10,6 +10,7 @@ const Navbar = () => {
             <Link to="/selfwork" className={classes.nav__link__second}>Самостоятельная работа</Link>
             <Link to="/laboratory" className={[classes.nav__link__second, classes.last__link].join(' ')}>ЛР1</Link>
             <Link to="/practice" className={[classes.nav__link__second, classes.last__link].join(' ')}>ПР1</Link>
+            <Link to="/LR3" className={[classes.nav__link__second, classes.last__link].join(' ')}>ЛР3</Link>
         </header>
     );
 };
