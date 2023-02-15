@@ -1,0 +1,28 @@
+.exam__title{
+    color: transparent;
+    background: -webkit-linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,9,89,1) 35%, rgba(255,0,131,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "TT Norms ExtraBold";
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.exam__who{
+    color: white;
+    font-family: "Montserrat";
+}
+.exam__group{
+    color: white;
+    font-family: "Montserrat";
+}
+.button__container{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}

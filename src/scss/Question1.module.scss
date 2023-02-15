@@ -1,0 +1,95 @@
+.container{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.task__one{
+  background-color: #FF9A8B;
+  background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "TT Norms ExtraBold", "Arial Black";
+  text-transform: uppercase;
+}
+.image{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  object-fit: cover;
+  filter: hue-rotate(190deg) alpha(.7);
+}
+.wrapper{
+  width: fit-content;
+  display: inline-block;
+  height: 200px;
+
+}
+.increase__border__button{
+  background-color: #FFDEE9;
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-transform: lowercase;
+}
+.btn {
+  width: 140px;
+  height: 40px;
+  border: 1px solid #eee;
+  font-family: 'Montserrat', serif;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  z-index: 0;
+  transition: 1s;
+  background: #121212;
+}
+
+.btn::before, .btn::after {
+  position: absolute;
+  background: #121212;
+  z-index: -1;
+  transition: 1s;
+  content: '';
+}
+
+.btn::before {
+  height: 40px;
+  width: 110px;
+}
+
+.btn::after {
+  width: 140px;
+  height: 20px;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn:hover::before {
+  width: 0px;
+  background: #121212;
+}
+
+.btn:hover::after {
+  height: 0px;
+  background: #121212;
+}
+
+.btn:hover {
+  background: #121212;
+}
+.btn__wrapper{
+  display: flex;
+  justify-content: space-evenly;
+}

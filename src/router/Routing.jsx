@@ -7,6 +7,9 @@ import HomeWork from "../pages/HomeWork";
 import Main from "../pages/Main";
 import PracticeWork1 from "../pages/PracticeWork1";
 import LR3 from "../pages/LR3";
+import Exam from "../pages/Exam";
+import Question1 from "../pages/Question1";
+import Question2 from "../pages/Question2";
 
 const Routing = () => {
     return (
@@ -18,6 +21,9 @@ const Routing = () => {
             <Route path="/main" element={<Main/>}/>
             <Route path="/practice" element={<PracticeWork1/>}/>
             <Route path='/LR3' element={<LR3/>}/>
+            <Route path='/Exam' element={<Exam/>}/>
+            <Route path='/Question1' element={<Question1/>}/>
+            <Route path='/Question2' element={<Question2/>}/>
             <Route path="*" element={<Navigate replace to="/main"/>}/>
         </Routes>
     );
